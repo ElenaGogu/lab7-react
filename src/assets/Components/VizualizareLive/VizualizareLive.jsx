@@ -1,11 +1,23 @@
 import React from "react";
 import culori from "../../../data/culori.json";
-import imaginileProduselor from "../../../data/imaginile.json";
+import faina from "../../ingrediente/faina.png";
+import morcov from "../../ingrediente/morcov.png";
+import oua from "../../ingrediente/oua.png";
+import ceapa from "../../ingrediente/ceapa.png";
+import lapte from "../../ingrediente/lapte.png";
 import "./VizualizareLive.css";
 import { useRetetaStare } from "../RetetaContext/RetetaContext";
 
 function VizualizareLive() {
   const { detalii, ingrediente } = useRetetaStare();
+
+  const imaginileProduselor = {
+  faina: faina,
+  morcov: morcov,
+  oua: oua,
+  ceapa: ceapa,
+  lapte: lapte
+};
 
   let culoareSelectata = null;
   for (let i = 0; i < culori.length; i++) {

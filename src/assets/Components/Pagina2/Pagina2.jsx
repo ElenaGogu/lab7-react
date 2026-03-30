@@ -1,6 +1,7 @@
 import React from "react";
 import {useRetetaStare,useRetetaDispatch} from "../RetetaContext/RetetaContext";
 import unitati from "../../../data/unitati.json";
+
 import "./Pagina2.css";
 
 function Pagina2() {
