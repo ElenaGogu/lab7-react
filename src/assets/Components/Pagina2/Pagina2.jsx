@@ -32,25 +32,26 @@ function Pagina2() {
     }
     dispatch({ tip: "atinge_tot_pasul", campuri: toateCampurile });
 
-    let ingredienteCompletate = 0;
+    let totulEsteIndeplinit = true;
     for (let i = 0; i < ingrediente.length; i++) {
       const ing = ingrediente[i];
       const numeValid = ing.nume && ing.nume.trim() !== "";
       const cantitateValida = ing.cantitate && ing.cantitate > 0;
       const unitateValida = ing.unitate && ing.unitate !== "";
 
-      if (numeValid && cantitateValida && unitateValida) {
-        ingredienteCompletate++;
+      if (!numeValid || !cantitateValida || !unitateValida) {
+        totulEsteIndeplinit = false;
       }
     }
 
-    if (ingredienteCompletate < 2) {
+    if (ingrediente.length < 2 || !totulEsteIndeplinit) {
       dispatch({
         tip: "set_eroare_pas2",
-        mesaj: "Completeaza cel putin 2 ingrediente.",
+        mesaj: "Adauga cel putin 2 ingrediente.",
       });
       return;
     }
+
     dispatch({ tip: "set_eroare_pas2", mesaj: "" });
     dispatch({ tip: "set_pas", pas: 3 });
   };
