@@ -1,0 +1,12 @@
+[
+  { "id": "g", "label": "Grame (g)" },
+  { "id": "kg", "label": "Kilograme (kg)" },
+  { "id": "ml", "label": "Mililitri (ml)" },
+  { "id": "l", "label": "Litri (l)" },
+  { "id": "buc", "label": "Bucăți" },
+  { "id": "lg", "label": "Linguri" },
+  { "id": "lgt", "label": "Lingurițe" },
+  { "id": "cana", "label": "Căni" },
+  { "id": "praf", "label": "Un praf" },
+  { "id": "legatura", "label": "Legătură" }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "bio",
+    "nume": "Bio / Organic",
+    "kcal": 15
+  },
+  {
+    "id": "tara",
+    "nume": "De tara",
+    "kcal": 10
+  },
+  {
+    "id": "import",
+    "nume": "Import",
+    "kcal": 5
+  },
+  {
+    "id": "procesat",
+    "nume": "Procesat",
+    "kcal": 25
+  },
+  {
+    "id": "crud",
+    "nume": "Crud",
+    "kcal": 0
+  }
+]

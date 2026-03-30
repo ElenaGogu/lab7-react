@@ -1,0 +1,114 @@
+.ingrediente {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.pasDesc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ingredienteLista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  flex: 2;
+}
+
+.inputMic {
+  width: 80px;
+}
+
+.selectUnitate {
+  flex: 1;
+}
+
+.adaugaBtn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px dashed #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.butoaneInstructiuni {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.inapoiBtn, .continuaBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 25px; 
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.inapoiBtn {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.continuaBtn {
+  background-color: #d35400;
+  border: none;
+  color: white;
+}
+
+.ingredienteRind {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.grupInputTabel {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+}
+
+.textEroare {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.inputEroare {
+  border: 1px solid #d9534f !important;
+  background-color: #fff8f8; 
+}
+
+.stergeBtn {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,45 @@
+.containerLive {
+  padding: 20px;
+}
+
+.titluLive {
+  font-size: 18px;
+  font-weight: 700;
+  color: #28a745;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+}
+
+.ingredientLive {
+  display: flex;
+  align-items: center; 
+  gap: 8px;          
+  padding: 4px 8px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.imagineIngredient {
+  width: 24px;        
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;     
+}
+
+.detaliiLive {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  margin-left: auto; 
+}
+
+.banerLive {
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
